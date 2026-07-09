@@ -1,0 +1,27 @@
+{
+  "name": "LifeOS — مركز قيادة حياتك",
+  "short_name": "LifeOS",
+  "description": "نظام شخصي شامل: مهام، جدول يومي، تركيز، عادات، تذكيرات",
+  "dir": "rtl",
+  "lang": "ar",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f2ede3",
+  "theme_color": "#f2ede3",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-maskable.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

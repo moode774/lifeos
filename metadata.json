@@ -1,0 +1,8 @@
+{
+  "name": "LifeOS: Personal Command Center",
+  "description": "A comprehensive, smart personal dashboard for tracking work, life, habits, and schedules with intelligent reminders.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
