@@ -4,7 +4,7 @@ import { cn } from '../lib/utils';
 export function Card({ className, children }: { className?: string; children: React.ReactNode }) {
   return (
     <div className={cn(
-      'rise rounded-[28px] border border-linec bg-gradient-to-b from-card to-card-2 p-6 shadow-[0_10px_30px_-18px_rgba(60,50,20,.25)]',
+      'rise rounded-[28px] border border-linec bg-gradient-to-b from-card to-card-2 p-6 shadow-[0_8px_32px_rgba(31,38,135,0.07)] backdrop-blur-2xl',
       className,
     )}>
       {children}

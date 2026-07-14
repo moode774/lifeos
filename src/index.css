@@ -8,33 +8,33 @@
   --font-num: "Space Grotesk", "Tajawal", sans-serif;
 
   /* Crextio-style palette (light) */
-  --color-cream: #f2ede3;
-  --color-cream-2: #ece5d6;
-  --color-card: #faf7f0;
-  --color-card-2: #f6efdd;
-  --color-sun: #f2d14e;
-  --color-sun-2: #eec643;
-  --color-ink: #1b1b18;
-  --color-ink-2: #2a2a26;
-  --color-mut: #97917f;
-  --color-linec: #e6ddc9;
+  --color-cream: #f4f8fb;
+  --color-cream-2: #e0eaf5;
+  --color-card: #fffffff2;
+  --color-card-2: #ffffffd9;
+  --color-sun: #3b82f6;
+  --color-sun-2: #2563eb;
+  --color-ink: #0f172a;
+  --color-ink-2: #1e293b;
+  --color-mut: #64748b;
+  --color-linec: #ffffff80;
 
   /* fixed tokens — never flip with theme (dark cards, toast) */
-  --color-night: #1b1b18;
-  --color-night-2: #33322c;
-  --color-paper: #f5f3ea;
+  --color-night: #0f172ad9;
+  --color-night-2: #1e293bbf;
+  --color-paper: #f8fafc;
 }
 
 /* dark theme — swaps the surface palette, keeps sun + night/paper fixed */
 .dark {
-  --color-cream: #131310;
-  --color-cream-2: #191914;
-  --color-card: #1d1d17;
-  --color-card-2: #22221a;
-  --color-ink: #f0eee2;
-  --color-ink-2: #dcd9c8;
-  --color-mut: #8d8874;
-  --color-linec: #2d2c22;
+  --color-cream: #090e17;
+  --color-cream-2: #111827;
+  --color-card: #1e293b99;
+  --color-card-2: #0f172a66;
+  --color-ink: #f8fafc;
+  --color-ink-2: #e2e8f0;
+  --color-mut: #94a3b8;
+  --color-linec: #ffffff1a;
 }
 
 html { -webkit-text-size-adjust: 100%; }
@@ -42,18 +42,18 @@ html { -webkit-text-size-adjust: 100%; }
 body {
   @apply font-sans text-ink antialiased;
   background:
-    radial-gradient(1000px 520px at 12% -8%, #fdf6df 0%, transparent 55%),
-    radial-gradient(900px 500px at 95% 8%, #f7e9c4 0%, transparent 50%),
-    radial-gradient(800px 600px at 50% 115%, #efe3ca 0%, transparent 55%),
+    radial-gradient(1000px 600px at 10% -10%, #ffffff 0%, transparent 60%),
+    radial-gradient(900px 700px at 90% -10%, #e0eaf5 0%, transparent 60%),
+    radial-gradient(800px 600px at 50% 115%, #f4f8fb 0%, transparent 55%),
     var(--color-cream);
   min-height: 100vh;
 }
 
 .dark body {
   background:
-    radial-gradient(1000px 520px at 12% -8%, #201e12 0%, transparent 55%),
-    radial-gradient(900px 500px at 95% 8%, #1e1b10 0%, transparent 50%),
-    radial-gradient(800px 600px at 50% 115%, #191710 0%, transparent 55%),
+    radial-gradient(1000px 520px at 12% -8%, #1e3a8a 0%, transparent 55%),
+    radial-gradient(900px 500px at 95% 8%, #172554 0%, transparent 50%),
+    radial-gradient(800px 600px at 50% 115%, #0f172a 0%, transparent 55%),
     var(--color-cream);
 }
 
